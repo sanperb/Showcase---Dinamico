@@ -6,7 +6,7 @@ Reto 2 del Bootcamp Frontend Online realizado con GeekshubAcademy basado en la r
 
 ---
 
-###Índice
+### Índice
 
 1. Estructura del proyecto
 2. Contenido de la Web
