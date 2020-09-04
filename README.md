@@ -66,6 +66,7 @@ Realizado con Html5, Css, complementa la parte principal del proyecto para poder
 ![Mostrador de productos](/IMG/ImgFondoyrecursos/ImgsReadme/compraexample.png)
 
 - **Contacto**
+
 Realizado con Html5, Css, complementa la parte principal del proyecto para poder darle un poco de utilidad a los botones y los enlaces que se encuentran la página Productos (index.html)
 
 ![Mostrador de productos](/IMG/ImgFondoyrecursos/ImgsReadme/contactoexample.png)
