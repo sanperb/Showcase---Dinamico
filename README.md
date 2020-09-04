@@ -24,7 +24,7 @@ La estructura del proyecto está basada en un conjunto de archivos Html, Css y J
 ---
 
 
-####Contenido de la Web
+#### Contenido de la Web
 - Productos (Mostrador de alimentos)
 - Perfil
 - Mi compra
@@ -32,7 +32,7 @@ La estructura del proyecto está basada en un conjunto de archivos Html, Css y J
 
 ---
 
-####Tecnología utilizada
+#### Tecnología utilizada
 - HTML5
 - CSS3
 - JavaScript - ES6
@@ -40,7 +40,7 @@ La estructura del proyecto está basada en un conjunto de archivos Html, Css y J
 
 ---
 
-####Instrucciones de Instalación
+#### Instrucciones de Instalación
 Hay que abrir el index.html para ir enlazando a las diferentes páginas que conforman el proyecto.
 Este proyecto está optimizado para Google Chrome.
 
@@ -48,7 +48,7 @@ Este proyecto está optimizado para Google Chrome.
 
 ---
 
-####Información del proyecto (Incluye Wireframes)
+#### Información del proyecto (Incluye Wireframes)
 - **Productos (Mostrador de alimentos)**
 Realizado con Html5, Css y Javascript, es la parte principal del proyecto. El arrastre de productos al carrito se realiza mediante Drag and Drop. Se pueden eliminar productos del carrito y se suma el total de los productos que estén en ella.
 
@@ -72,12 +72,12 @@ Realizado con Html5, Css, complementa la parte principal del proyecto para poder
 
 ---
 
-####Copyright y licencia
+#### Copyright y licencia
 Proyecto de naturaleza académica realizado por Sandra Pérez Barrios para el Bootcamp Frontend Online de GeekshubAcademy.
 
 ---
 
-####Créditos, información de contacto
+#### Créditos, información de contacto
 
 Los vectores raíz de este proyecto aunque han sido modificados son propiedad de https://www.freepik.es/
 
