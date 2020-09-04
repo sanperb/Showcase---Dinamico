@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goodday-OnlineMarket</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+
+    <body>
+        <!-- Header -->
+        <div class="container">
+            <header class="header-info">
+                <nav class="menuprincipal" role="navigation">
+                    <div class="menu-navegacion">
+                        <ul class=items-menu>
+
+                            <li id="item1-menu">
+
+                                <a href="index.html"><i class="enlace-menu">
+                                    </i><span>Productos</span></a>
+                            </li>
+                            <li id="item2-menu">
+
+                                <a href="perfil.html"><i class="enlace-menu">
+                                    </i><span>Perfil</span></a>
+                            </li>
+                            <li class="logo-menu">
+                                <a href="index.html" id="logoimg" rel="home"><img src="IMG/ImgFondoyrecursos/v2extrapeqsupermarket1.png"
+                                        alt="logo"></a>
+                            </li>
+
+                            <li id="item3-menu">
+                                <a href="Realizarcompra.html"><i class="enlace-menu">
+                                    </i><span>Mi Compra</span></a>
+
+                            </li>
+                            <li id="item4-menu">
+
+                                <a href="contacto.html"><i class="enlace-menu">
+                                    </i><span>Contacto</span></a>
+                            </li>
+                        </ul>
+                </nav>
+
+
+            </header>
+            <!--Contenido principal-->
+             <!--Productos de la estanteria - mostrador-->
+            <main class="contenido-principal">
+                <div class="estanteria">
+                    <div id="frutas">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Frutas/sandia.png" draggable="true" ondragstart="drag(event)" name="Sandia">
+                            <span class="tooltiptext">3.5 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Frutas/fresas.png" draggable="true" ondragstart="drag(event)" name="Fresa">
+                            <span class="tooltiptext">2.3 €</span>
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Frutas/manzana.png" draggable="true" ondragstart="drag(event)" name="Manzana">
+                            <span class="tooltiptext">0.7 €</span>
+
+                        </div>
+                    </div>
+                    <div id="frutas2">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Frutas/uvas.png" draggable="true" ondragstart="drag(event)" name="Uvas">
+                            <span class="tooltiptext">1.5 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Frutas/platanos.png" draggable="true" ondragstart="drag(event)" name="Platano">
+                            <span class="tooltiptext">3 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Frutas/piña.png" draggable="true" ondragstart="drag(event)" name="Piña">
+                            <span class="tooltiptext">3 €</span>
+
+                        </div>
+                    </div>
+                    <div id="verduras">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Verduras/espinaca.png" draggable="true" ondragstart="drag(event)" name="Espinaca">
+                            <span class="tooltiptext">0.6 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Verduras/lechuga.png" draggable="true" ondragstart="drag(event)" name="Lechuga">
+                            <span class="tooltiptext">1.3 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Verduras/pepino.png" draggable="true" ondragstart="drag(event)" name="Pepino">
+                            <span class="tooltiptext">0.55 €</span>
+
+                        </div>
+                    </div>
+
+                    <div id="verduras2">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Verduras/pimientorojo.png" draggable="true" ondragstart="drag(event)"
+                                name="PimientoRojo">
+                            <span class="tooltiptext">0.65 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Verduras/pimientoverde.png" draggable="true" ondragstart="drag(event)"
+                                name="PimientoVerde">
+                            <span class="tooltiptext">0.65 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Verduras/tomate.png" draggable="true" ondragstart="drag(event)" name="Tomate">
+                            <span class="tooltiptext">0.8 €</span>
+
+                        </div>
+                    </div>
+                    <div id="carne">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Carnes/bacon.png" draggable="true" ondragstart="drag(event)" name="Bacon">
+                            <span class="tooltiptext">1 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Carnes/chistorra.png" draggable="true" ondragstart="drag(event)" name="Chistorra">
+                            <span class="tooltiptext">1.3 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Carnes/chuletacerdo.png" draggable="true" ondragstart="drag(event)"
+                                name="ChuletaCerdo">
+                            <span class="tooltiptext">3.2 €</span>
+                        </div>
+                    </div>
+                    <div id="carne2">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Carnes/chuleton.png" draggable="true" ondragstart="drag(event)" name="Chuleton">
+                            <span class="tooltiptext">5.1 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Carnes/polloasado.png" draggable="true" ondragstart="drag(event)"
+                                name="PolloAsado">
+                            <span class="tooltiptext">3.9 €</span>
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Carnes/polloentero.png" draggable="true" ondragstart="drag(event)"
+                                name="PolloEntero">
+                            <span class="tooltiptext">3 €</span>
+
+                        </div>
+                    </div>
+                    <div id="pescado">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Pescados/gambon.png" draggable="true" ondragstart="drag(event)" name="Gambon">
+                            <span class="tooltiptext">5.5 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Pescados/lubina.png" draggable="true" ondragstart="drag(event)" name="Lubina">
+                            <span class="tooltiptext">2.6 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Pescados/mejillones.png" draggable="true" ondragstart="drag(event)"
+                                name="Mejillones">
+                            <span class="tooltiptext">3.2 €</span>
+
+                        </div>
+                    </div>
+                    <div id="pescado2">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Pescados/ostras.png" draggable="true" ondragstart="drag(event)" name="Ostras">
+                            <span class="tooltiptext">11.2 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Pescados/pulpo.png" draggable="true" ondragstart="drag(event)" name="Pulpo">
+                            <span class="tooltiptext">9.9 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Pescados/salmon.png" draggable="true" ondragstart="drag(event)" name="Salmon">
+                            <span class="tooltiptext">4.4 €</span>
+
+                        </div>
+                    </div>
+                    <div id="postres">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Postres/caramelos.png" draggable="true" ondragstart="drag(event)"
+                                name="Caramelos">
+                            <span class="tooltiptext">0.7 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Postres/donut.png" draggable="true" ondragstart="drag(event)" name="Donut">
+                            <span class="tooltiptext">0.5 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Postres/heladochocolate.png" draggable="true" ondragstart="drag(event)"
+                                name="HeladoChocolate">
+                            <span class="tooltiptext">1 €</span>
+
+                        </div>
+                    </div>
+                    <div id="postres2">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Postres/heladosabores.png" draggable="true" ondragstart="drag(event)"
+                                name="HeladoSabores">
+                            <span class="tooltiptext">1.1 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Postres/lemonpie.png" draggable="true" ondragstart="drag(event)" name="LemonPie">
+                            <span class="tooltiptext">0.75 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Postres/magdalenachocolate.png" draggable="true" ondragstart="drag(event)"
+                                name="MagdalenaChocolate">
+                            <span class="tooltiptext">0.8 €</span>
+
+                        </div>
+                    </div>
+                    <div id="comidapreparada">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/ComidaPreparada/alitasdepollo.png" draggable="true" ondragstart="drag(event)"
+                                name="AlitasDePollo">
+                            <span class="tooltiptext">3.3 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/ComidaPreparada/hamburgesa.png" draggable="true" ondragstart="drag(event)"
+                                name="Hamburguesa">
+                            <span class="tooltiptext">1.9 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/ComidaPreparada/patatasfritas.png" draggable="true" ondragstart="drag(event)"
+                                name="PatatasFritas">
+                            <span class="tooltiptext">1.2 €</span>
+
+                        </div>
+                    </div>
+                    <div id="comidapreparada1">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/ComidaPreparada/perritocaliente.png" draggable="true" ondragstart="drag(event)"
+                                name="PerritoCaliente">
+                            <span class="tooltiptext">1.2 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/ComidaPreparada/pizza.png" draggable="true" ondragstart="drag(event)"
+                                name="Pizza">
+                            <span class="tooltiptext">1.75 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/ComidaPreparada/taco.png" draggable="true" ondragstart="drag(event)" name="Taco">
+                            <span class="tooltiptext">1.8 €</span>
+
+                        </div>
+                    </div>
+                    <div id="comidapreparada3">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/ComidaPreparada2/lasagna.png" draggable="true" ondragstart="drag(event)"
+                                name="Lasagna">
+                            <span class="tooltiptext">2.3 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/ComidaPreparada2/noodles.png" draggable="true" ondragstart="drag(event)"
+                                name="Noodles">
+                            <span class="tooltiptext">2.9 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/ComidaPreparada2/sandwichvegetal.png" draggable="true" ondragstart="drag(event)"
+                                name="SandwichVegetal">
+                            <span class="tooltiptext">1.2 €</span>
+
+                        </div>
+                    </div>
+                    <div id="comidapreparada4">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/ComidaPreparada2/sopa.png" draggable="true" ondragstart="drag(event)"
+                                name="SopaPollo">
+                            <span class="tooltiptext">0.6 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/ComidaPreparada2/sopa2.png" draggable="true" ondragstart="drag(event)"
+                                name="SopaVerduras">
+                            <span class="tooltiptext">0.55 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/ComidaPreparada2/sushi.png" draggable="true" ondragstart="drag(event)"
+                                name="Sushi">
+                            <span class="tooltiptext">8.8 €</span>
+
+                        </div>
+                    </div>
+                    <div id="bebidas">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Bebidas/cerveza.png" draggable="true" ondragstart="drag(event)" name="Cerveza">
+                            <span class="tooltiptext">0.9 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Bebidas/cocacola.png" draggable="true" ondragstart="drag(event)" name="Cocacola">
+                            <span class="tooltiptext">0.8 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Bebidas/cola.png" draggable="true" ondragstart="drag(event)" name="Cola">
+                            <span class="tooltiptext">0.4 €</span>
+
+                        </div>
+                    </div>
+                    <div id="bebidas2">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Bebidas/leche.png" draggable="true" ondragstart="drag(event)" name="Leche">
+                            <span class="tooltiptext">1 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Bebidas/lechecristal.png" draggable="true" ondragstart="drag(event)"
+                                name="LecheCristal">
+                            <span class="tooltiptext">1.3 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/Bebidas/zumonaranja.png" draggable="true" ondragstart="drag(event)"
+                                name="ZumoNaranja">
+                            <span class="tooltiptext">2 €</span>
+
+                        </div>
+                    </div>
+                    <div id="bebidascalientes">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/BebidasCalientes/cafeleche.png" draggable="true" ondragstart="drag(event)"
+                                name="CafeLeche">
+                            <span class="tooltiptext">0.95 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/BebidasCalientes/cappuchino.png" draggable="true" ondragstart="drag(event)"
+                                name="Cappuchino">
+                            <span class="tooltiptext">1.2 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/BebidasCalientes/expresso.png" draggable="true" ondragstart="drag(event)"
+                                name="Expresso">
+                            <span class="tooltiptext">0.8 €</span>
+
+                        </div>
+                    </div>
+                    <div id="bebidascalientes2">
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/BebidasCalientes/tematcha.png" draggable="true" ondragstart="drag(event)"
+                                name="TeMatcha">
+                            <span class="tooltiptext">1.6 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/BebidasCalientes/tenegro.png" draggable="true" ondragstart="drag(event)"
+                                name="TeNegro">
+                            <span class="tooltiptext">1.5 €</span>
+
+                        </div>
+                        <div id="div1" class="tooltip" ondrop="drop(event)" ondragover="allowDrop(event)">
+                            <img src="IMG/BebidasCalientes/terojo.png" draggable="true" ondragstart="drag(event)"
+                                name="TeRojo">
+                            <span class="tooltiptext">1.5 €</span>
+
+                        </div>
+                    </div>
+                </div>
+                 <!--Zona carrito (drop)-->
+                <aside class="zonacesta">
+                    <div id="div2" class="cesta" ondrop="drop(event)" ondragover="allowDrop(event)">
+                        <h2 class="carritotext">Carrito</h2>
+                        <ul>
+                            <!-- Los productos se añaden aquí por JS-->
+                        </ul>
+                        <br>
+                        <div class="preciototal">Total:<span class="eurillos"></span></div>
+                        <a href="Realizarcompra.html">
+                        <input type="button" class="botoncompra" value="Realizar Compra"></a>
+                        
+                    </div>
+                </aside>
+
+            </main>
+
+            <!--Footer -->
+            <footer class="site-footer" role="contentinfo">
+
+                <div class="logo-menu-footer">
+                    <a href="index.html"> <img src="IMG/ImgFondoyrecursos/v2extrapeqsupermarket1.png" alt="logo"></a>
+                </div>
+
+                <div class="contenido-footer">
+
+                    <ul class="menu-contactanos">
+                        <li id="contacto-footer">
+                            <a href="contacto.html"><i class="enlace-menu">
+                                </i><span>Contáctanos</span></a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- .site-info -->
+                <div class="site-info">
+                    <p>© SandraPBarrios2020</p>
+
+                </div>
+
+            </footer>
+
+
+            <script src="JS/script.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,406 @@
+body {
+    margin:0;
+    padding:0;
+  }
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: normal;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+header {
+    background: whitesmoke;
+    border-bottom: salmon 5px solid;
+    border-top: salmon 5px solid;
+
+}
+.logo-menu{
+    margin-top: -2em;
+    margin-bottom: -1em;
+
+}
+
+.items-menu {
+    list-style-type: none;
+    display: flex;    
+    justify-content: space-around;
+    margin-right: 10em;
+    margin-left: 5em;
+    padding-top: 1em;
+}
+
+.enlace-menu {
+    list-style: none;
+    
+}
+
+.menuprincipal a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color:#4d5a6b;
+}
+
+.menu-navegacion a {
+    list-style-type: none;
+}
+  /* Contenido principal y sus elementos */
+  .contenido-principal{
+    background-color: whitesmoke;
+    min-height: 100vh;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 25px 50px;
+    background-size: 100% 100%; 
+    background-image: url("../IMG/ImgFondoyrecursos/mostradorfondo.png");
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .estanteria{
+      margin-top:10rem;
+  }
+
+  #div1{
+      display: inline-flex;
+      
+  }
+
+    #frutas{
+        margin-left: 17.3rem;
+        
+    }
+    #frutas2{
+        margin-top: -0.5rem;
+        margin-left: 17.3rem;
+        padding: 0;
+    
+    }
+    
+    #verduras{
+        margin-top: -5.5rem;
+        margin-left: 28.2rem;
+        padding: 0;
+    }
+    #verduras2{
+        margin-left: 28.2rem;
+        margin-top: -0.5rem;
+        padding: 0;
+    }
+    
+    #carne{
+        margin-top: -5.8rem;
+        margin-left: 39.4rem;
+        padding: 0;
+    }
+    #carne2{
+        margin-left: 39.4rem;
+        padding: 0;
+    }
+    
+    #pescado{
+        margin-top: 0.2rem;
+        margin-left: 17rem;
+        padding: 0;
+    }
+    #pescado2{
+        margin-left: 17.2rem;
+        padding: 0;
+    }
+    
+    #postres{
+        margin-top:-5.8rem;
+        margin-left: 28.5rem;
+        padding: 0;
+    }
+    #postres2{
+        margin-top:-0.4rem;
+        margin-left: 28rem;
+        padding: 0;
+    }
+    
+    #comidapreparada{
+        margin-top: -5.5rem;
+        margin-left: 39.3rem;
+        padding: 0;
+    
+    }
+    
+    #comidapreparada1{
+        margin-top:-0.3rem;
+        margin-left: 39.3rem;
+        padding: 0;
+    }
+    #comidapreparada3{
+        margin-top: 0.5rem;
+        margin-left: 17.1rem;
+        padding: 0;
+    
+    }
+    
+    #comidapreparada4{
+        margin-top:-0.5rem;
+        margin-left: 17.1rem;
+        padding: 0;
+    }
+    #bebidas{
+        margin-top: -5.5rem;
+        margin-left: 28.3rem;
+        padding: 0;
+    
+    }
+    
+    #bebidas2{
+        margin-top:-0.3rem;
+        margin-left: 28.3rem;
+        padding: 0;
+    }
+    #bebidascalientes{
+        margin-top: -5.8rem;
+        margin-left: 39.4rem;
+        padding: 0;
+    
+    }
+    
+    #bebidascalientes2{
+        margin-top:-0.3rem;
+        margin-left: 39.4rem;
+        padding: 0;
+
+    }
+
+     /* Estilo del carrito y los elementos que contiene */
+
+
+#div2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    align-content: flex-start;
+    float: right;
+    min-height: 15rem;
+    max-width: 17rem;
+    margin-top:-26.5rem;
+    margin-right:1rem;
+    padding-top: 0;
+    padding: 10px;
+    background-image: url("../IMG/ImgFondoyrecursos/cestaok10.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: whitesmoke;
+    border: 5px solid grey;
+  }
+
+  h2 {
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .licarrito{
+      list-style-type: none;
+      margin-left: -2rem;
+      padding-top:0.3rem;
+      font-size: 16px;;
+  }
+
+  .preciototal{
+      background-color: salmon;
+      padding-top: 0.5rem;
+      padding-left: 1rem;
+      padding-right: 7rem;
+      padding-bottom: 0.5rem;
+      margin-bottom: 0;
+      font-size: 16px;
+  }
+
+  .eurillos{
+      padding-left: 1rem;
+      font-size: 20px;
+  }
+
+  .boton-eliminar{
+    text-decoration: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    font-weight: 400;
+    font-size: 16px;
+    color:black;
+    background-color:white;
+    border-radius: 3px;
+    border: 2px solid salmon;
+    margin-left: 3px;
+    margin-top: -5px;
+}
+.boton-eliminar:hover{
+  color: red;
+  background-color: #ffffff;
+}
+
+.botoncompra{
+    margin-top:1rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 13rem;
+    font-weight: 400;
+    font-size: 18px;
+    color:black;
+    background-color:white;
+    border-radius: 3px;
+    border: 2px solid salmon;
+
+}
+
+.botoncompra:hover{
+    color:grey;
+    background-color: whitesmoke;
+    border: 2px solid turquoise;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    font-size: 12px;
+    width: 2.5rem;
+    background-color: grey;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 4px 0;
+  
+    /* Posicion del tooltip */
+    position: absolute;
+
+  }
+  
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+  /* Footer */
+
+  .site-footer{
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+    background: salmon;
+}   
+.logo-menu-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    order: 2;
+
+}
+
+.site-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    order: 3;
+    font-style: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.menu-contactanos a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    order: 1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    color:#4d5a6b;
+    padding: px;
+    margin-top: 20px;
+    margin-right: 35px;
+    background-color: whitesmoke;
+
+}
+
+#contacto-footer {
+   font-style: normal; 
+   list-style-type: none;
+}
+
+/* Formulario Contacto y formulario de Finalizar compra */
+
+.formulario-contacto{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:whitesmoke;
+    padding: 60px;
+    max-width: 400px;
+    margin: 0 auto;
+    font-weight: 700;
+    color: #4d5a6b;
+    
+}
+
+.etiqueta{
+    font-weight: normal;
+    
+}
+form input{
+    margin-bottom: 15px;
+    font-family: "Roboto", sans-serif;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    border: none; 
+    color: #525c66; 
+    font-size: 1em;
+    resize: horizontal; 
+  }
+
+  form button {
+    display: block;
+	background-color:#4d5a6b;
+	padding: 10px 45px 10px 45px;
+	border: 0;
+	font-size: 1em; 
+	color: 	whitesmoke;
+    font-family: "Roboto", sans-serif;
+}
+    form button:hover{
+        background-color:salmon;
+    }
+
+   #email{
+       padding-right:1rem;
+   }
+
+   #fname{
+    padding-right:4rem;
+
+   }
+
+   #terminarcompra{
+    margin-right: auto;
+    margin-left: auto;
+   }
+
+   #texto-cuadro{
+    padding-top: 1rem;
+   }
+
+   .botonenviar{
+    margin-right: auto;
+    margin-left: auto;   
+   }
+
+   .titulocompra{
+       margin-top: 0;
+       padding-bottom: 1rem;
+   }
+
